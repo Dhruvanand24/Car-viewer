@@ -65,7 +65,7 @@ const blacklist = [];
 
 // Sample route for testing
 app.get("/", (req, res) => {
-  res.send('<h1>Welcome to made2automate product manager server</h1>');
+  res.send('<h1>Welcome to Car Viewer Server</h1>');
 });
 app.get("/check", async (req, res) => {
   try {
