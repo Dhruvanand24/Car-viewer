@@ -9,7 +9,7 @@ import cors from "cors";
 
 dotenv.config();
 
-// Get environment variables
+
 const { PORT = 3000, MONGODB_URI, JWT_SECRET } = process.env;
 
 // Initialize Express
