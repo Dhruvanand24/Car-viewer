@@ -2,7 +2,6 @@ Carview API Documentation
 Base URL
 All endpoints are relative to http://localhost:3000.
 Authentication
-All requests requiring authentication should include an Authorization header with a valid JWT token.
 1. User Signup
 Endpoint: POST /usersignup
 Description: Register a new user.
@@ -18,6 +17,7 @@ Responses:
 201 Created: User registered successfully.
 301 Moved Permanently: User already exists.
 500 Internal Server Error: Failed to register user.
+
 2. Dealership Signup
 Endpoint: POST /dealershipsignup
 Description: Register a new dealership.
